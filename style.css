@@ -1,0 +1,87 @@
+
+body {
+    background-color: rgb(180, 162, 139);
+}
+* {
+    font-family: cursive;
+    font-size: x-large;
+    border-radius: 15px;
+}
+.dobre {
+    color: green; /* Zielony kolor dla dobrej odpowiedzi */
+    font-weight: bold;
+}
+.zle {
+    color: red; /* Czerwony kolor dla złej odpowiedzi */
+    font-weight: bold;
+}
+#container {
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    color: rgb(87, 60, 27);
+    background-color: rgb(206, 140, 59);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+}
+#text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#smallContainer{
+    display: flex;
+    flex-direction: row;
+}
+#smallerContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+h1{
+    font-size: xx-large;
+}
+#previousFlags {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.flag-history-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.flag-history-item img {
+    max-width: 50px;
+    max-height: 30px;
+    margin-right: 10px;
+}
+.flag-history-item p {
+    margin: 0;
+}
+.imgtext{
+    text-align: center;
+    padding-top: 20px;
+    margin: 5px;
+    width: 50%;
+    border: 3px rgb(87, 60, 27) solid;
+    background-color: rgb(240, 215, 184);
+}
+.imgtext:hover{
+    background-color: rgb(187, 163, 134);
+    cursor:pointer;
+}
+.imgtext img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
